@@ -20,7 +20,7 @@ void setup() {
   Serial.begin(9600);
   Serial.println("HX711 Rocket Motor Dynamometer, V.5");
   Serial.println("Place rocket motor oriented downwards in holder. Move away from test stand doods.");
-  Serial.println("Press the button to start sex.");
+  Serial.println("Press the button to start.");
   lcd.begin(16, 2);
   lcd.clear();
   lcd.setCursor(0, 0);

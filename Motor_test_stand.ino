@@ -7,7 +7,7 @@ const int igniterPin = 11;   //igniter transistor circuit
 int buttonState = 0;
 #define DOUT 3
 #define CLK 2
-HX711 scale(2,3);
+HX711 scale(DOUT, CLK);
 float calibration_factor = -760;   //CHANGE FOR ADJUSTMENT
 
 
